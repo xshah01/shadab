@@ -1,0 +1,158 @@
+
+/* css variables */
+:root {
+
+    /* colors */
+    --hue-color: ;
+    --first-color: rgb(255, 255, 255);
+    --first-color-second: ;
+    --first-color-alt: ;
+    --first-color-lighter: ;
+    --title-color: rgb(230, 230, 230);
+    --text-color: ;
+    --text-color-light: ;
+    --input-color: ;
+    --body-color: rgb(36, 36, 36);
+    --container-color: ;
+
+    /* font and typography */
+    --body-font: Arial, Helvetica, sans-serif;
+
+    --big-font-size: 5.5rem;
+    --h1-font-size: 1rem;
+    --h2-font-size: .813rem;
+    --normal-font-size: .75rem;
+    --small-font-size: .5rem;
+    --smaller-font-size: .25rem;
+
+}
+
+/* base */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    color: var(--text-color);
+    background-color: var(--body-color);
+}
+
+h1,h2,h3,h4 {
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+i {
+    color: var(--title-color);
+}
+
+.container {
+    margin-left: 22rem;
+}
+
+.row {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
+}
+.column1 {
+    display: table-cell;
+    width: 20%;
+}
+
+.column2 {
+    display: table-cell;
+    width: 30%;
+}
+
+.column3 {
+    display: table-cell;
+    width: 50%;
+}
+
+.header {
+    width: 100%;
+    margin-top: 1.5rem;
+    background-color: var(--body-color);
+}
+
+/* navbar */
+.nav {
+    margin: 1rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--body-color);
+}
+
+.nav_logo {
+    font-size: 1.25rem;
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+}
+
+.nav_logo:hover {
+    color: var(--first-color);
+}
+
+.nav_item {
+    font-size: 1.25rem;
+}
+
+.nav_item a {
+    padding: .75rem;
+}
+
+.nav_item i:hover {
+    color: var(--first-color);
+}
+
+/* main */
+.banner {
+    margin-top: 15rem;
+    margin-right: 4rem;
+    margin-bottom: 10rem;
+}
+
+.banner h1 {
+    font-size: var(--big-font-size);
+}
+
+.about .column1{
+    font-size: var(--normal-font-size);
+    color: var(--title-color);
+}
+
+.about .column2 {
+    color: var(--title-color);
+}
+
+.about .column3 {
+    font-size: var(--h1-font-size);
+    color: var(--title-color);
+}
