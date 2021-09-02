@@ -18,7 +18,7 @@
     /* font and typography */
     --body-font: Arial, Helvetica, sans-serif;
 
-    --big-font-size: 5.5rem;
+    --big-font-size: 5rem;
     --h1-font-size: 1rem;
     --h2-font-size: .813rem;
     --normal-font-size: .75rem;
@@ -67,16 +67,19 @@ i {
     color: var(--title-color);
 }
 
+/* reuseable code */
 .container {
     margin-left: 22rem;
+    margin-right: 3rem;
 }
 
 .row {
     display: table;
     width: 100%;
     table-layout: fixed;
-    border-spacing: 10px;
+    margin-bottom: 10rem;
 }
+
 .column1 {
     display: table-cell;
     width: 20%;
@@ -90,6 +93,11 @@ i {
 .column3 {
     display: table-cell;
     width: 60%;
+}
+
+.column3column {
+    display: table-cell;
+    width: 41%;
 }
 
 .header {
@@ -110,25 +118,25 @@ i {
     background-color: var(--body-color);
 }
 
-.nav_logo {
+.nav-logo {
     font-size: 1.25rem;
     color: var(--title-color);
     font-weight: var(--font-medium);
 }
 
-.nav_logo:hover {
+.nav-logo:hover {
     color: var(--first-color);
 }
 
-.nav_item {
+.nav-item {
     font-size: 1.25rem;
 }
 
-.nav_item a {
+.nav-item a {
     padding: .75rem;
 }
 
-.nav_item i:hover {
+.nav-item i:hover {
     color: var(--first-color);
 }
 
@@ -143,11 +151,12 @@ i {
     font-size: var(--big-font-size);
 }
 
-.about .column1{
-    font-size: var(--normal-font-size);
+.column1 {
+    font-size: var(--h1-font-size);
     color: var(--title-color);
 }
 
+/* about */
 .about .column2 {
     color: var(--title-color);
 }
@@ -155,4 +164,55 @@ i {
 .about .column3 {
     font-size: var(--h1-font-size);
     color: var(--title-color);
+}
+
+/* skills */
+.skills-container {
+    row-gap: 10;
+}
+
+.skills-header {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.skills-header :hover {
+    color: var(--first-color);
+    cursor: pointer;
+}
+
+.skills-icon {
+    font-size: var(--h1-font-size);
+}
+
+.skills-arrow {
+    font-size: 1.5rem;
+}
+
+.skills-arrow {
+    margin-left: auto;
+    transition: .4s;
+}
+
+.skills-titles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-data {
+    padding-bottom: .5rem;
+}
+
+.skills-close .skills-list {
+    height: 0;
+    overflow: hidden;
+}
+
+.skills-open .skills-list {
+    height: max-content; 
+}
+
+.skills-open .skills-arrow {
+    transform: rotate(-180deg);
 }
