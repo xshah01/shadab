@@ -1,10 +1,15 @@
 
+@font-face {
+    src: url(../fonts/Quakiez.ttf);
+    font-family: quakiez;
+}
+
 /* css variables */
 :root {
 
     /* colors */
     --hue-color: ;
-    --first-color: rgb(255, 255, 255);
+    --first-color: rgb(160, 141, 105);
     --first-color-second: ;
     --first-color-alt: ;
     --first-color-lighter: ;
@@ -119,9 +124,10 @@ i {
 }
 
 .nav-logo {
+    font-family: quakiez;
     font-size: 1.25rem;
     color: var(--title-color);
-    font-weight: var(--font-medium);
+    font-weight: var(--font-);
 }
 
 .nav-logo:hover {
@@ -152,6 +158,7 @@ i {
 }
 
 .column1 {
+    font-family: quakiez;
     font-size: var(--h1-font-size);
     color: var(--title-color);
 }
@@ -177,7 +184,7 @@ i {
     margin-bottom: 1rem;
 }
 
-.skills-header :hover {
+.skills-content :hover {
     color: var(--first-color);
     cursor: pointer;
 }
@@ -201,6 +208,11 @@ i {
 }
 
 .skills-data {
+    padding-bottom: .5rem;
+}
+
+.skills-data h3 {
+    color: var(--first-color);
     padding-bottom: .5rem;
 }
 
