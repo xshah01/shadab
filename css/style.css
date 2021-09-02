@@ -84,12 +84,12 @@ i {
 
 .column2 {
     display: table-cell;
-    width: 30%;
+    width: 20%;
 }
 
 .column3 {
     display: table-cell;
-    width: 50%;
+    width: 60%;
 }
 
 .header {
