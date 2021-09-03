@@ -76,13 +76,13 @@ i {
 .container {
     margin-left: 22rem;
     margin-right: 3rem;
+    margin-bottom: 5rem;
 }
 
 .row {
     display: table;
     width: 100%;
     table-layout: fixed;
-    margin-bottom: 10rem;
 }
 
 .column1 {
@@ -174,10 +174,6 @@ i {
 }
 
 /* skills */
-.skills-container {
-    row-gap: 10;
-}
-
 .skills-header {
     display: inline-flex;
     align-items: center;
@@ -213,7 +209,6 @@ i {
 
 .skills-data h3 {
     color: var(--first-color);
-    padding-bottom: .5rem;
 }
 
 .skills-close .skills-list {
