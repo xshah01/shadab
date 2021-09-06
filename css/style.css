@@ -180,7 +180,7 @@ i {
     margin-bottom: 1rem;
 }
 
-.skills-content :hover {
+.skills-content .skills-arrow:hover {
     color: var(--first-color);
     cursor: pointer;
 }
