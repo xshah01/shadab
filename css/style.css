@@ -235,3 +235,8 @@ i {
     color: var(--title-color);
     line-height: 2;
 }
+
+.qualification .qualification-tabs {
+    display: flex;
+    justify-content: space-evenly;
+}
