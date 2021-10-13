@@ -23,7 +23,7 @@
     /* font and typography */
     --body-font: Arial, Helvetica, sans-serif;
 
-    --big-font-size: 5rem;
+    --big-font-size: 4.5rem;
     --h1-font-size: 1rem;
     --h2-font-size: .813rem;
     --normal-font-size: .75rem;
@@ -100,9 +100,27 @@ i {
     width: 60%;
 }
 
-.column3column {
+.column3-1 {
+    display: flex;
+    width: 100%;
+}
+
+.column3-2 {
+    display: flex;
+    width: 10%;
+}
+
+.column3column3 {
     display: table-cell;
     width: 41%;
+}
+
+.column3column2 {
+    width: 45%;
+}
+
+.column3column2-1 {
+    width: 45%;
 }
 
 .header {
@@ -145,6 +163,38 @@ i {
 .nav-item i:hover {
     color: var(--first-color);
 }
+
+/* not in use */
+.wrapper {
+    height: 100vh;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5rem;
+  }
+  
+  .typing-demo {
+    width: 24ch;
+    animation: typing 2s steps(24), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 4em;
+    color:rgb(160, 141, 105)
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
 
 /* main */
 .banner {
@@ -236,7 +286,35 @@ i {
     line-height: 2;
 }
 
-.qualification .qualification-tabs {
+.qualification .qualification-header {
+    font-size: var(--h1-font-size);
     display: flex;
     justify-content: space-evenly;
 }
+
+.qualification .qualification-data {
+    margin-bottom: 3rem;
+    text-align: end;
+ }
+
+.column3-2 hr {
+    display: block;
+    width: 3px;
+    height: 100%;
+    background-color: white;
+    margin-left: 50%;
+}
+
+.column3-2 .rounder span{
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: -60%;
+}
+
+.qualification .qualification-data-1 {
+    margin-bottom: 3rem;
+    text-align: start;
+ }
