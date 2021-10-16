@@ -100,26 +100,12 @@ i {
     width: 60%;
 }
 
-.column3-1 {
-    display: flex;
-    width: 100%;
-}
-
-.column3-2 {
-    display: flex;
-    width: 10%;
-}
-
 .column3column3 {
     display: table-cell;
     width: 41%;
 }
 
 .column3column2 {
-    width: 45%;
-}
-
-.column3column2-1 {
     width: 45%;
 }
 
@@ -283,38 +269,33 @@ i {
 .qualification .column3 {
     font-size: var(--h1-font-size);
     color: var(--title-color);
-    line-height: 2;
 }
 
-.qualification .qualification-header {
-    font-size: var(--h1-font-size);
-    display: flex;
-    justify-content: space-evenly;
+.qualification .column3 .header {
+    text-align: center;
+    margin-bottom: -35px;
 }
 
-.qualification .qualification-data {
-    margin-bottom: 3rem;
+.qualification .column3 .year{
+    color: var(--first-color);
+}
+
+.qualification .column3 .column-1 {
+    float: left;
+    width: 53%;
     text-align: end;
- }
-
-.column3-2 hr {
-    display: block;
-    width: 3px;
-    height: 100%;
-    background-color: white;
-    margin-left: 50%;
+    line-height: 2em;
+    margin-bottom: 50px;
 }
 
-.column3-2 .rounder span{
-    display: inline-block;
-    height: 13px;
-    width: 13px;
-    border-radius: 50%;
-    background-color: white;
-    margin-left: -60%;
-}
-
-.qualification .qualification-data-1 {
-    margin-bottom: 3rem;
+.qualification .column3 .column-1 span {
     text-align: start;
- }
+}
+
+.qualification .column3 .column-2 {
+    float: right;
+    width: 53%;
+    text-align: start;
+    line-height: 2em;
+    margin-bottom: 50px;
+}
