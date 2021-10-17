@@ -374,6 +374,7 @@ a:visited {
 }
 
 .footer .credits i {
+    font-size: 11px;
     color: var(--title-color-darker);
 }
 
