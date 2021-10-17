@@ -293,7 +293,12 @@ i {
     margin-bottom: -46px;
 }
 
-.qualification .column3 .year{
+.qualification .column3 .year {
+    color: var(--first-color);
+}
+
+.qualification .column3 .year i {
+    font-size: 20px;
     color: var(--first-color);
 }
 
