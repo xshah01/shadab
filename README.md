@@ -4,6 +4,8 @@
 
 Skills, qualifications and more, all presented in a personal website.
 
+URL: shadabahmed.me
+
 ### Built With
 
 - HTML
