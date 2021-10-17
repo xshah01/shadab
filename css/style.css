@@ -148,6 +148,10 @@ i {
     padding: .75rem;
 }
 
+.nav-item a:hover {
+    padding: .75rem;
+}
+
 .nav-item i:hover {
     color: var(--first-color);
 }
@@ -295,7 +299,7 @@ i {
 
 .qualification .column3 .column-1 {
     float: left;
-    width: 53%;
+    width: 54%;
     text-align: end;
     line-height: 2em;
     margin-bottom: 50px;
@@ -307,7 +311,7 @@ i {
 
 .qualification .column3 .column-2 {
     float: right;
-    width: 53%;
+    width: 53.1%;
     text-align: start;
     line-height: 2em;
     margin-bottom: 50px;
