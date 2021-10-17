@@ -2,7 +2,7 @@
 
 ### Description
 
-Skills, qualifications and more presented in a personal website.
+Skills, qualifications and more, all presented in a personal website.
 
 ### Built With
 
