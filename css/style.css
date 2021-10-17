@@ -290,7 +290,7 @@ i {
 
 .qualification .column3 .header {
     text-align: center;
-    margin-bottom: -46px;
+    margin-bottom: -36px;
 }
 
 .qualification .column3 .year {
@@ -298,15 +298,28 @@ i {
 }
 
 .qualification .column3 .year i {
+    padding-bottom: 10px;
     font-size: 20px;
     color: var(--first-color);
+}
+
+.qualification .column3 hr {
+    margin-bottom: 10px;
+}
+
+.qualification .column3 .paragraph-header {
+    font-size: var(--h2-font-size);
+}
+
+.qualification .column3 span {
+    font-size: var(--h3-font-size);
 }
 
 .qualification .column3 .column-1 {
     float: left;
     width: 54%;
     text-align: end;
-    line-height: 2em;
+    line-height: 1em;
     margin-bottom: 50px;
 }
 
@@ -318,7 +331,7 @@ i {
     float: right;
     width: 53.1%;
     text-align: start;
-    line-height: 2em;
+    line-height: 1em;
     margin-bottom: 50px;
 }
 
